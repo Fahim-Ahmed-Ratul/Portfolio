@@ -1,0 +1,36 @@
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title" style="color: white;">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="" class="portfolio__item">
+                <img src="img/Screenshot (2613).png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 02 -->
+            <a href="" class="portfolio__item">
+                <img src="img/Screenshot (2615).png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 03 -->
+            <a href="" class="portfolio__item">
+                <img src="img/Screenshot (2618).png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 04 -->
+            <a href="" class="portfolio__item">
+                <img src="img/Screenshot (2620).png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 05 -->
+            <a href="" class="portfolio__item">
+                <img src="img/Screenshot (2621).png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 06 -->
+            <a href="" class="portfolio__item">
+                <img src="img/work-6.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 07 -->
+            <a href="" class="portfolio__item">
+                <img src="img/work-6.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>

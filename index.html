@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Source+Code+Pro:wght@400;300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+-->
+
+    <!-- Introduction   -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro uk-animation-shake"
+            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            Hi,I am <strong>Fahim Ahmed</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro uk-animation-slide-bottom"
+            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Full Stack Dev</p>
+        <img src="img/reee.jpg" alt="A picture of Fahim Ahmed" class="intro__img uk-animation-scale-up"
+            uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+    </section>
+
+    <!-- My Services   -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <h3 style="color: white;">Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam tempore tempora vitae minima
+                    possimus nemo laboriosam velit commodi perspiciatis.</p>
+            </div> <!-- /service -->
+            <div class="service" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <h3 style="color: white;">E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa earum, nisi saepe doloremque totam
+                    veritatis officiis a architecto eos accusamus.</p>
+            </div> <!-- /service -->
+            <div class="service" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <h3 style="color: white;">WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fugiat labore eveniet rem explicabo
+                    ad. Hic ab perspiciatis, nobis sint.</p>
+            </div> <!-- /service -->
+        </div> <!-- /services -->
+
+        <a href="#work" class="btn1">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Who I
+            am</h2>
+        <p class="section__subtitile section__subtitle--about"
+            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            Designer & Developer based out of Bangladesh
+        </p>
+        <div class="about-me__body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae omnis possimus mollitia! Suscipit
+                perferendis, adipisci!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae incidunt aliquid laboriosam vel,
+                cupiditate facere.</p>
+        </div>
+        <img src="img/3109.jpg" alt="" class="about-me__img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+            <h2 class="section__title" style="color: white;">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="" class="portfolio__item" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <img src="img/Screenshot (2613).png" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 02 -->
+                <a href="" class="portfolio__item" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <img src="img/Screenshot (2615).png" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2618).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                </a>
+                <!-- Portfolio item 04 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2620).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 05 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2621).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 06 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2622).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                </a>
+                <!-- Portfolio item 07 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2624).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 08 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2625).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 09 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2627).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                </a>
+                <!-- Portfolio item 10 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2628).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 11 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2630).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                </a>
+                <!-- Portfolio item 12 -->
+                <a href="" class="portfolio__item">
+                    <img src="img/Screenshot (2489).png" alt="" class="portfolio__img" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                </a>
+            </div>
+    </section>
+
+    <br><br>
+
+    <div class="container">
+        <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1"
+            uk-slider="clsActivated: uk-transition-active; center: true; autoplay: true; autoplay-interval: 2000">
+
+            <ul class="uk-slider-items uk-grid">
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2613).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2615).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2618).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2620).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2621).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2622).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2624).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2625).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2627).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2628).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2630).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="uk-width-3-4">
+                    <div class="uk-panel">
+                        <img src="img/Screenshot (2489).png" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Apple</h3>
+                            <p class="uk-margin-remove">Apple's Website Cloning From Apple's Official Landing Page</p>
+                        </div>
+                    </div>
+                </li>
+
+
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slider-item="next"></a>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+    </div>
+
+
+    <div style="width: 100%;">
+        <h2 style="text-align: center; margin: 1% 0%;">Skills</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div uk-scrollspy="target: .card; cls: uk-animation-fade; delay: 300; repeat: true">
+                <div class="card-deck">
+
+                    <!-- <div class="col-4"> -->
+                    <div class="card border-dark mb-3" style="width: 45rem; text-align: center;"
+                        uk-scrollspy-class="uk-animation-slide-top">
+                        <div class="card-header">Frontend</div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Light card title</h5> -->
+                            <p class="card-text">
+                                Html <br>
+                                CSS <br>
+                                Bootstrap <br>
+                                Javascript <br>
+                                jQuery <br>
+                                jQuery Plugins
+                            </p>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+                    <!-- <div class="col-4"> -->
+                    <div class="card border-dark mb-3" style="width: 45rem; text-align: center;"
+                        uk-scrollspy-class="uk-animation-slide-bottom">
+                        <div class="card-header">Backend</div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Light card title</h5> -->
+                            <p class="card-text">
+                                PHP <br>
+                                AJAX <br>
+                                MySQL <br>
+                                MongoDB<br>
+                                Laravel Framework <br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card border-dark mb-3" style="width: 45rem; text-align: center;"
+                        uk-scrollspy-class="uk-animation-slide-top">
+                        <div class="card-header">Others</div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Light card title</h5> -->
+                            <p class="card-text">
+                                c <br>
+                                Java <br>
+                                Python <br>
+                                Git<br>
+                                Github <br>
+                                Google Api Integration
+                            </p>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <br> -->
+
+    <div style="width: 100%;">
+        <h2 style="text-align: center; margin: 1% 0%;">Live Projects</h2>
+    </div>
+
+    <!-- <br> -->
+    <br>
+    <div uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 400; repeat: true">
+        <div class="container" uk-scrollspy-class="uk-animation-slide-left">
+            <h5><b>MOBILE ECOMMERCE WEBSITE</b></h5>
+            <span><i class="far fa-clock"></i> Sep-Oct 2020</span> &nbsp;&nbsp;&nbsp;
+            <span><i class="far fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp;
+            <!-- <span><i class="fas fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp; -->
+            <span><i class="far fa-folder"></i> Ecommerce</span> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 uk-overflow-hidden">
+                    <img src="./img/1.png" alt="" class="img-fluid"
+                        uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-5">
+                    <h6>Project Details</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 24%;" aria-valuenow="24"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    Platform:Website <br>
+                    Language:HTML, CSS, Bootstrap, PHP, jQuery, AJAX <br>
+                    Database : MySQL <br>
+                    Plugins:Owl Carousel, Isotope Filter
+                </div>
+                <div class="col-7">
+                    <h6>Project Description</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 23%;" aria-valuenow="23"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem? Iste quaerat dolorum
+                        at
+                        dignissimos esse quibusdam voluptatum provident molestiae? Quaerat debitis praesentium maxime
+                        quo.
+                        Porro, omnis pariatur! Impedit officiis excepturi illum molestias natus architecto soluta
+                        dolorum
+                        autem</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="https://ecommerce-ratul.000webhostapp.com/" target="_blank"><button type="button"
+                            class="btn btn-info"><i class="far fa-eye"></i> Live</button></a>
+                    <a href="#"><button type="button" class="btn btn-success"><i class="fab fa-github"></i>
+                            Github</button></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="container" uk-scrollspy-class="uk-animation-slide-right">
+            <h5><b>NEWS WEBSITE</b></h5>
+            <span><i class="far fa-clock"></i> Sep-Oct 2020</span> &nbsp;&nbsp;&nbsp;
+            <span><i class="far fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp;
+            <!-- <span><i class="fas fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp; -->
+            <span><i class="far fa-folder"></i> Ecommerce</span> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 uk-overflow-hidden">3
+                    <img src="./img/2.png" alt="" class="img-fluid"
+                        class="uk-animation-reverse uk-transform-origin-top-right"
+                        uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-5">
+                    <h6>Project Details</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 24%;" aria-valuenow="24"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    Platform : Website <br>
+                    Language : HTML, CSS, Bootstrap, PHP <br>
+                    Databse : MySQL
+                </div>
+                <div class="col-7">
+                    <h6>Project Description</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 23%;" aria-valuenow="23"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem? Iste quaerat dolorum
+                        at
+                        dignissimos esse quibusdam voluptatum provident molestiae? Quaerat debitis praesentium maxime
+                        quo.
+                        Porro, omnis pariatur! Impedit officiis excepturi illum molestias natus architecto soluta
+                        dolorum
+                        autem</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="https://newsproject-ratul.000webhostapp.com/" target="_blank"><button type="button"
+                            class="btn btn-info"><i class="far fa-eye"></i> Live</button></a>
+                    <a href="#"><button type="button" class="btn btn-success"><i class="fab fa-github"></i>
+                            Github</button></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="container" uk-scrollspy-class="uk-animation-slide-top">
+            <h5><b>PHP REST API CRUD</b></h5>
+            <span><i class="far fa-clock"></i> Sep-Oct 2020</span> &nbsp;&nbsp;&nbsp;
+            <span><i class="far fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp;
+            <!-- <span><i class="fas fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp; -->
+            <span><i class="far fa-folder"></i> Ecommerce</span> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 uk-overflow-hidden">
+                    <img src="./img/3.png" alt="" class="img-fluid"
+                        uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-5">
+                    <h6>Project Details</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 24%;" aria-valuenow="24"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    Platform : Website <br>
+                    Language : HTML, CSS, Bootstrap, PHP, jQuery, AJAX <br>
+                    Database : MySQL <br>
+                    Software Development Tool : Postman
+                </div>
+                <div class="col-7">
+                    <h6>Project Description</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 23%;" aria-valuenow="23"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem? Iste quaerat dolorum
+                        at
+                        dignissimos esse quibusdam voluptatum provident molestiae? Quaerat debitis praesentium maxime
+                        quo.
+                        Porro, omnis pariatur! Impedit officiis excepturi illum molestias natus architecto soluta
+                        dolorum
+                        autem</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="https://php-rest-api-ratul.000webhostapp.com/" target="_blank"><button type="button"
+                            class="btn btn-info"><i class="far fa-eye"></i> Live</button></a>
+                    <a href="#"><button type="button" class="btn btn-success"><i class="fab fa-github"></i>
+                            Github</button></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="container" uk-scrollspy-class="uk-animation-slide-bottom">
+            <h5><b>STUDENT MANAGEMENT WEBSITE</b></h5>
+            <span><i class="far fa-clock"></i> Sep-Oct 2020</span> &nbsp;&nbsp;&nbsp;
+            <span><i class="far fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp;
+            <!-- <span><i class="fas fa-user"></i> Fahim Ahmed</span> &nbsp;&nbsp;&nbsp; -->
+            <span><i class="far fa-folder"></i> Ecommerce</span> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 uk-overflow-hidden">
+                    <img src="./img/4.png" alt="" class="img-fluid"
+                        class="uk-animation-reverse uk-transform-origin-top-right"
+                        uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-5">
+                    <h6>Project Details</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 24%;" aria-valuenow="24"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    Platform : Website <br>
+                    Language : HTML, CSS, Bootstrap, PHP<br>
+                    Database : MySQL
+                </div>
+                <div class="col-7">
+                    <h6>Project Description</h6>
+                    <div class="progress" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 23%;" aria-valuenow="23"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem? Iste quaerat dolorum
+                        at
+                        dignissimos esse quibusdam voluptatum provident molestiae? Quaerat debitis praesentium maxime
+                        quo.
+                        Porro, omnis pariatur! Impedit officiis excepturi illum molestias natus architecto soluta
+                        dolorum
+                        autem</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="https://student-php-crud-ratul.000webhostapp.com/" target="_blank"><button type="button"
+                            class="btn btn-info"><i class="far fa-eye"></i> Live</button></a>
+                    <a href="#"><button type="button" class="btn btn-success"><i class="fab fa-github"></i>
+                            Github</button></a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </div>
+
+    <div class="progress" style="height: 2px;">
+        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <!-- <a href="mailto:fahimratul100@gmail.com" class="footer-link">fahimratul100@gmail.com</a> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <i class="fas fa-phone-alt"></i> <br>
+                    Phone <br>
+                    01761087986
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-envelope"></i> <br>
+                    Email <br>
+                    fahimratul100@gmail.com
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-map-marker-alt"></i> <br>
+                    Location <br>
+                    North Shahjahanpur,Dhaka-1217
+                </div>
+            </div>
+        </div>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Fahim-Ahmed-Ratul"><i
+                        class="fab fa-github"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.pexels.com/search/logo/"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/fahimahmedratul/"><i
+                        class="fab fa-facebook"></i></a></li>
+        </ul>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+</body>
+
+</html>
